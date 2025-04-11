@@ -47,7 +47,7 @@
 
 - 部属视图：系统拓扑、分布、安装
 
-  <img src="https://img.noahwei.com/2024/08/16/66bf2cc0f2277.png" alt="image-20240816184107333" style="zoom:67%;" />
+  <img src="https://lskypro-1309218011.cos.ap-shanghai.myqcloud.com/2024/08/16/66bf2cc0f2277.png" alt="image-20240816184107333" style="zoom:67%;" />
 
 ​	**注意**：不同的视图突出特定的参与群体所关心的系统的不同方面，通过合并所有五个视图中得到的信息就可以形成系统的完整描述
 
@@ -88,7 +88,7 @@
 
 **1、UML构成**
 
-![image-20240816184426888](https://img.noahwei.com/2024/08/16/66bf2d88def84.png)
+![image-20240816184426888](https://lskypro-1309218011.cos.ap-shanghai.myqcloud.com/2024/08/16/66bf2d88def84.png)
 
 **2、UML的模型元素**
 
@@ -105,7 +105,7 @@
 
 - 示例图
 
-  <img src="https://img.noahwei.com/2024/08/16/66bf2e12d4a33.png" alt="image-20240816184645131" style="zoom:50%;" />
+  <img src="https://lskypro-1309218011.cos.ap-shanghai.myqcloud.com/2024/08/16/66bf2e12d4a33.png" alt="image-20240816184645131" style="zoom:50%;" />
 
 **3、UML模型规则**
 
