@@ -10,23 +10,23 @@
 
 直接点击`+` 号，然后点击`new branch`后跳转到如下界面，其中`branch name`为自己命名，建议采用`feature +后缀`的方式，例如`feature_pcy`
 
-![image-20240612124219334](https://img.noahwei.com/2024/08/04/66af047b674a8.png)
+![image-20240612124219334](https://lskypro-1309218011.cos.ap-shanghai.myqcloud.com/2024/08/04/66af047b674a8.png)
 
-![image-20240612124252037](https://img.noahwei.com/2024/08/04/66af047eb79c3.png)
+![image-20240612124252037](https://lskypro-1309218011.cos.ap-shanghai.myqcloud.com/2024/08/04/66af047eb79c3.png)
 
 ### 方式二：侧边栏菜单中选择创建
 
 Gitlab网页侧边栏选择 `Repository` 下的 `Branches` ，然后点击`new branch`后跳转到如下界面，其中`branch name`为自己命名，建议采用`feature +后缀`的方式，例如`feature_pcy`
 
-![image-20240612124356536](https://img.noahwei.com/2024/08/04/66af04824c0c8.png)
+![image-20240612124356536](https://lskypro-1309218011.cos.ap-shanghai.myqcloud.com/2024/08/04/66af04824c0c8.png)
 
-![image-20240612124252037](https://img.noahwei.com/2024/08/04/66af047eb79c3.png)
+![image-20240612124252037](https://lskypro-1309218011.cos.ap-shanghai.myqcloud.com/2024/08/04/66af047eb79c3.png)
 
 ## 2. 创建工作目录
 
 本地新建一个文件夹，并进入，然后右键选择`Open Git Bash here`
 
-![image-20240612124904003](https://img.noahwei.com/2024/08/04/66af048805d52.png)
+![image-20240612124904003](https://lskypro-1309218011.cos.ap-shanghai.myqcloud.com/2024/08/04/66af048805d52.png)
 
 ## 3. 克隆代码仓库到本地
 
@@ -46,13 +46,13 @@ git clone [URL]
 git clone http://gitlab.htzq.htc.com.cn/fic/data-development.git
 ```
 
-![image-20240612125307313](https://img.noahwei.com/2024/08/04/66af048b2559c.png)
+![image-20240612125307313](https://lskypro-1309218011.cos.ap-shanghai.myqcloud.com/2024/08/04/66af048b2559c.png)
 
 ## 4. 进入项目仓库根目录，重新打开Git命令窗口
 
 > 或者直接 cd 命令切换
 
-![image-20240612125729709](https://img.noahwei.com/2024/08/04/66af048e91aad.png)
+![image-20240612125729709](https://lskypro-1309218011.cos.ap-shanghai.myqcloud.com/2024/08/04/66af048e91aad.png)
 
 ## 5. 切换分支
 
@@ -122,12 +122,12 @@ git push origin feature_pcy
 
 - 提交之后需要由项目**管理员同意**
 
-![image-20240612134141608](https://img.noahwei.com/2024/08/04/66af04960f6f9.png)
+![image-20240612134141608](https://lskypro-1309218011.cos.ap-shanghai.myqcloud.com/2024/08/04/66af04960f6f9.png)
 
 ## 11. 删除自己的分支
 
 在历史的开发工作的 merge request 被同意后，分支即进行了合并，之后需要删除自己建立的分支 feature_pcy，删除不可撤销，请确认已经提交修改合并分支。
 
-![image-20240612134338016](https://img.noahwei.com/2024/08/04/66af049a3c51e.png)
+![image-20240612134338016](https://lskypro-1309218011.cos.ap-shanghai.myqcloud.com/2024/08/04/66af049a3c51e.png)
 
-![image-20240612134608011](https://img.noahwei.com/2024/08/04/66af049d2fdc9.png)
+![image-20240612134608011](https://lskypro-1309218011.cos.ap-shanghai.myqcloud.com/2024/08/04/66af049d2fdc9.png)
