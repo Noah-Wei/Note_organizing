@@ -5,4 +5,27 @@
 - 官网
   - [Registered download PL/SQL Developer - Allround Automations](https://www.allroundautomations.com/registered-plsqldev/)
 
-### Oracle 11G
+### Oracle 19C
+
+- 官网
+  - https://www.oracle.com/database/technologies/oracle19c-windows-downloads.html
+
+## Oracle Instant Client Downloads
+
+- 官网
+  - [Oracle Instant Client Downloads](https://www.oracle.com/database/technologies/instant-client/downloads.html)
+
+
+
+
+
+```
+CREATE USER Gu IDENTIFIED BY Gu050326
+DEFAULT TABLESPACE USERS
+TEMPORARY TABLESPACE TEMP
+QUOTA UNLIMITED ON USERS;
+
+
+GRANT DBA TO Gu;
+```
+

@@ -99,6 +99,11 @@ ALTER TABLESPACE "ODB" ADD DATAFILE '/opt/oracle/app/oradata/orcl/ODB2' SIZE 500
 
 ```
 create user ODBA identified by 5208 default tablespace ODB;
+
+CREATE USER 用户名 IDENTIFIED BY 密码
+    DEFAULT TABLESPACE USERS
+    TEMPORARY TABLESPACE TEMP
+    QUOTA UNLIMITED ON USERS;
 ```
 
 ##### 7、添加dba权限
