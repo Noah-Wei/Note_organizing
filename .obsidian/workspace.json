@@ -4,17 +4,21 @@
     "type": "split",
     "children": [
       {
-        "id": "bd4b7adff772a509",
+        "id": "6bb0c6193f0d0a4f",
         "type": "tabs",
         "children": [
           {
-            "id": "709f4ad96b939b32",
+            "id": "ee3890acdd03fe40",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {},
+              "type": "markdown",
+              "state": {
+                "file": "01_Oracle/操作符/UNION 和 UNION ALL 并集操作.md",
+                "mode": "source",
+                "source": false
+              },
               "icon": "lucide-file",
-              "title": "新标签页"
+              "title": "UNION 和 UNION ALL 并集操作"
             }
           }
         ]
@@ -176,8 +180,22 @@
       "templater-obsidian:Templater": false
     }
   },
-  "active": "709f4ad96b939b32",
+  "active": "fc83971194211d3f",
   "lastOpenFiles": [
+    "01_Oracle/01_00_初始化/Docker安装Oracle11G.md",
+    "01_Oracle/01_99_练习题/Oracle 19c数据库scott用户下创建表.md",
+    "01_Oracle/01_00_初始化",
+    "01_Oracle/操作符/LIKE 操作符.md",
+    "01_Oracle/未命名.md",
+    "01_Oracle/操作符",
+    "01_Oracle/01_99_练习题/01_简单查询.md",
+    "01_Oracle/Untitled.md",
+    "01_Oracle/01_99_练习题",
+    "01_Oracle/操作符/UNION 和 UNION ALL 并集操作.md",
+    "01_Oracle/01_01_函数/01_01_04_转换函数/TO_DATE 函数.md",
+    "01_Oracle/01_01_函数/01_01_04_转换函数/TO_NUMBER 函数.md",
+    "01_Oracle/01_01_函数/01_01_04_转换函数/TO_CHAR 函数.md",
+    "01_Oracle/01_01_函数/01_01_04_转换函数",
     "01_Oracle/01_01_函数/01_01_03_日期函数/LAST_DAY 函数.md",
     "01_Oracle/01_01_函数/01_01_03_日期函数/NEXT_DAY 函数.md",
     "01_Oracle/01_01_函数/01_01_03_日期函数/MONTHS_BETWEEN 函数.md",
@@ -195,26 +213,12 @@
     "01_问题收录/DOCKER问题汇总.md",
     "02_教程/VScode使用Git.md",
     "02_教程/V2ray搭建教程.md",
-    "02_教程/Docker安装Oracle11G.md",
-    "02_教程/徽章制作.md",
-    "99_Demo/Demo.md",
-    "99_Demo/OKR.md",
-    "99_Demo/Typora支持文章互联.md",
-    "03_Oracle/03_01_函数/03_01_01_字符函数/TRANSLATE 函数.md",
-    "03_Oracle/03_01_函数/03_01_02_数值函数/LEAST 函数.md",
-    "03_Oracle/03_01_函数/03_01_02_数值函数/Untitled.md",
     "03_Oracle/03_01_函数/03_01_02_数值函数",
-    "03_Oracle/03_01_函数/03_01_01_字符函数/LPAD 和 RPAD 函数.md",
-    "03_Oracle/03_01_函数/03_01_01_字符函数/TRIM、LTRIM 和 RTRIM 函数.md",
     "03_Oracle/03_01_函数/03_01_01_字符函数",
     "03_Oracle/03_01_函数",
     "03_Oracle",
     "02_教程",
-    "Demo 1",
-    "01_问题收录",
     "未命名.canvas",
-    "1.html",
-    "99_Demo",
     "Pasted image 20250409161417.png",
     "Pasted image 20250409161415.png",
     "Pasted image 20250409161457.png",
