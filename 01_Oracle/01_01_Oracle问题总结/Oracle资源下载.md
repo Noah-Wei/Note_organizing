@@ -15,17 +15,3 @@
 - 官网
   - [Oracle Instant Client Downloads](https://www.oracle.com/database/technologies/instant-client/downloads.html)
 
-
-
-
-
-```
-CREATE USER Gu IDENTIFIED BY Gu050326
-DEFAULT TABLESPACE USERS
-TEMPORARY TABLESPACE TEMP
-QUOTA UNLIMITED ON USERS;
-
-
-GRANT DBA TO Gu;
-```
-
