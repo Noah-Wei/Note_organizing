@@ -1,8 +1,6 @@
-# JetBrains 头部注释模板.md
+# JetBrains 头部注释模板
 
-## Python
-
-- 动态
+## Python 动态版本
 
 ```python
 #!/usr/bin/env python3
@@ -21,7 +19,7 @@
 """
 ```
 
-- 静态
+## Python 动态版本
 
 ```python
 #!/usr/bin/env python3
@@ -40,9 +38,7 @@
 """
 ```
 
-## SQL
-
-- datagrip
+## SQL（Datagrip）版本
 
 ```sql
 --!/usr/bin/env sql
@@ -64,3 +60,4 @@
 */
 ```
 
+完结

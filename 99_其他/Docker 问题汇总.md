@@ -29,3 +29,9 @@ docker run --rm 镜像名 cat /etc/os-release
 /var/lib/docker/volumes
 ```
 
+- 将本地文件复制到 Docker 容器内
+
+```
+docker cp <本地文件路径> <容器名或ID>:<容器内目标路径>
+```
+

@@ -12,11 +12,11 @@
 ### 方法一：通过服务管理器
 1. 按下`Win + R`键，输入`services.msc`并回车
 2. 在服务列表中找到所有Oracle开头的服务（通常包括以下服务）：
-   - OracleService[实例名]
-   - OracleOraDb11g_home1TNSListener
-   - OracleJobScheduler[实例名]
-   - OracleMTSRecoveryService
-   - OracleVssWriter[实例名]
+   - `OracleService[实例名]`
+   - `OracleOraDb11g_home1TNSListener`
+   - `OracleJobScheduler[实例名]`
+   - `OracleMTSRecoveryService`
+   - `OracleVssWriter[实例名]`
 3. 右键点击每个服务，选择"停止"
 
 ### 方法二：通过任务管理器
@@ -32,11 +32,12 @@
 2. 导航到以下路径并删除相应项：
 
    - **服务项**：
+     
      ```
      HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Services\
      ```
-     删除所有以"Oracle"开头的项
-
+     删除该路径下的所有以oracle开始的服务名称
+     
    - **软件信息**：
      ```
      HKEY_LOCAL_MACHINE\SOFTWARE\ORACLE
