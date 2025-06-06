@@ -11,10 +11,14 @@
             "id": "923393e697c035bd",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {},
+              "type": "markdown",
+              "state": {
+                "file": "01_Oracle/01_00_初始化/Oracle 数据库高效插入百万级数据指南.md",
+                "mode": "source",
+                "source": false
+              },
               "icon": "lucide-file",
-              "title": "新标签页"
+              "title": "Oracle 数据库高效插入百万级数据指南"
             }
           }
         ]
