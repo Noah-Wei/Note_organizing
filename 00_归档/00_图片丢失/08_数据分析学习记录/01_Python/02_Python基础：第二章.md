@@ -10,7 +10,7 @@
 
 - 字符编码发展
 
-![字符编码发展](https://lskypro-1309218011.cos.ap-shanghai.myqcloud.com/2022/06/10/62a33f6e94b08.png)
+![文心一言AI作图_20250906202935](https://lskypro-1309218011.cos.ap-shanghai.myqcloud.com/lskypro/20250906/1a5540df4da1e9e1582a8e4e1c9866e3.png)
 
 ## 二、Python中的标识符与保留字
 

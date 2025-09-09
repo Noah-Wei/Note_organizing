@@ -19,7 +19,7 @@
 """
 ```
 
-## Python 动态版本
+## Python 静态版本
 
 ```python
 #!/usr/bin/env python3
