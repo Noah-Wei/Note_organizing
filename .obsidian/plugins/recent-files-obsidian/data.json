@@ -1,0 +1,24 @@
+{
+  "recentFiles": [
+    {
+      "basename": "测试文本",
+      "path": "测试文本.md"
+    },
+    {
+      "basename": "Oracle 中查询表中最后 N 行数据的方法",
+      "path": "Oracle 中查询表中最后 N 行数据的方法.md"
+    },
+    {
+      "basename": "命令",
+      "path": "命令.md"
+    },
+    {
+      "basename": "Oracle表重复数据清理全攻略：三种方法详解与最佳实践",
+      "path": "Oracle表重复数据清理全攻略：三种方法详解与最佳实践.md"
+    }
+  ],
+  "omittedPaths": [],
+  "omittedTags": [],
+  "updateOn": "file-open",
+  "omitBookmarks": false
+}
