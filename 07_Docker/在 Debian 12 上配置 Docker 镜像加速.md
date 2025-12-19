@@ -37,7 +37,7 @@ sudo nano /etc/docker/daemon.json
 ```json
 {
   "registry-mirrors": [
-    "https://docker.1ms.run"
+    "https://docker.1ms.run",
     "https://docker.m.daocloud.io",
     "https://mirror.ccs.tencentyun.com",
     "https://hub-mirror.c.163.com"
