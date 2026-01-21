@@ -2,6 +2,8 @@
 
 在 Oracle 中，由于没有 `LIMIT` 或 `OFFSET` 子句（如 MySQL），也没有 `TOP` 子句（如 SQL Server），要获取表中最后 N 行数据需要使用一些特殊技巧。以下是几种常见方法：
 
+---
+
 ## 方法1：使用 ROWNUM 和子查询（适用于已知总行数）
 
 ```sql
@@ -16,6 +18,8 @@ FROM (
 WHERE rn <= N;
 ```
 
+---
+
 ## 方法2：使用 ROW_NUMBER() 分析函数（Oracle 8i 及以上）
 
 ```sql
@@ -26,6 +30,8 @@ FROM (
 )
 WHERE rn <= N;
 ```
+
+---
 
 ## 方法3：使用 ROWNUM 和 COUNT（适用于小表）
 
@@ -39,6 +45,8 @@ FROM (
 WHERE rn <= N;
 ```
 
+---
+
 ## 方法4：使用 FETCH FIRST（Oracle 12c 及以上）
 
 Oracle 12c 引入了类似其他数据库的语法：
@@ -49,6 +57,8 @@ FROM your_table
 ORDER BY rowid DESC  -- 或按某个有序列降序
 FETCH FIRST N ROWS ONLY;
 ```
+
+---
 
 ## 实际示例
 
@@ -81,6 +91,8 @@ ORDER BY EMPNO DESC
 FETCH FIRST 5 ROWS ONLY;
 ```
 
+---
+
 ## 注意事项
 
 1. Oracle 表在物理上是无序的，所以必须使用 `ORDER BY` 指定排序依据
@@ -88,3 +100,6 @@ FETCH FIRST 5 ROWS ONLY;
 3. 对于大表，方法2（ROW_NUMBER()）通常性能最好
 
 最可靠的方法是确保表有一个自增主键或创建时间戳列，然后基于该列排序获取最后N行。
+
+---
+
