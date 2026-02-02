@@ -1,18 +1,5 @@
 # Oracle相关命令
 
-- 检查当前数据库时区：
-
-  ```sql
-   SELECT DBTIMEZONE FROM dual;
-  ```
-
-- 查看服务名（实例/数据库名）
-
-  ```sql
-  SELECT value FROM v$parameter WHERE name = 'service_names';
-  ```
-
-
 ### SQL总体类别
 
 - 语言分类
@@ -25,6 +12,39 @@
   5、事务控制语言：TCL：COMMIT、ROLLBACK、SAVEPOINY
   ```
 
+- 检查当前数据库时区：
+
+  ```sql
+   SELECT DBTIMEZONE FROM dual;
+  ```
+
+- 查看服务名（实例/数据库名）
+
+  ```sql
+  SELECT value FROM v$parameter WHERE name = 'service_names';
+  ```
+
+### 查询
+
+- 查看当前用户下的所有表
+
+  ```sql
+  select * from user_tables;
+  ```
+
+- 查询当前用户下的所有视图名
+
+  ```sql
+  SELECT VIEW_NAME FROM USER_VIEWS;
+  ```
+
+- 查询当前用户下的所有序列
+
+  ```sql
+  SELECT SEQUENCE_NAME FROM USER_SEQUENCES;
+  ```
+
+  
 
 ### 约束
 
@@ -194,24 +214,14 @@
 
 ### 其他
 
-- 查看当前用户下的所有表
+求最后N行的数据
 
-  ```sql
-  select * from user_tables;
-  ```
-
-- 求最后N行的数据
-
-  ```sql
-  借助ROWNUM
-  先查出所有的数据
-  然后差集上，总行-前N行的数据
-  SELECT ROWNUM,表.* FROM 表
-  MINUS
-  SELECT * FROM 表 WHERE ROWNUM <= (SELECT COUNT(1)-N FROM 表);
-  ```
-
-### 
-
-ss
+```sql
+借助ROWNUM
+先查出所有的数据
+然后差集上，总行-前N行的数据
+SELECT ROWNUM,表.* FROM 表
+MINUS
+SELECT * FROM 表 WHERE ROWNUM <= (SELECT COUNT(1)-N FROM 表);
+```
 
