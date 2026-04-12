@@ -225,3 +225,15 @@ MINUS
 SELECT * FROM 表 WHERE ROWNUM <= (SELECT COUNT(1)-N FROM 表);
 ```
 
+解锁数据库的练习账户
+
+```
+alter user scott account unlock	
+```
+
+修改密码
+
+```
+alter user 用户名 identified by 密码
+```
+
