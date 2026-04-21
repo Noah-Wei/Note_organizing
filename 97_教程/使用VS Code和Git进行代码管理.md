@@ -10,6 +10,7 @@
   ```
 
 ### 1.2 配置用户信息
+
 ```bash
 git config --global user.name "Your Name"
 git config --global user.email "your.email@example.com"

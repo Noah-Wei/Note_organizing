@@ -1,4 +1,4 @@
-# Oracle 视图（View）详解
+# Oracle 视图（View）详解：原理、创建方式与可更新性分析
 
 ## 一、什么是视图（View）
 
